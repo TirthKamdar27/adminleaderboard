@@ -1,0 +1,173 @@
+.first
+{
+    width:100%;
+    height:65vh;
+    background-color: blueviolet;
+}
+
+.teams
+{
+    background-color: white;
+    border-radius: 15%;
+    z-index:999;
+}
+.text{
+    font-size:5rem;
+    color:yellow;
+    font-weight: 500;
+    text-align: center;
+    font-weight:200;
+}
+.p
+{
+    font-size: 10rem;
+    color: white;
+    font-weight:700;
+    transform: translate(26%, -100%);
+}
+.p1
+
+{
+    font-size: 10rem;
+    color: white;
+    font-weight:700;
+    transform: translate(29%, -115%);
+}
+.p2
+{
+    font-size: 10rem;
+    color: white;
+    font-weight:700;
+    transform: translate(29%,-80%);
+}
+
+.h1
+{
+    font-size:4rem;
+    color:white;
+    transform: translate(10%,-160%);
+}
+.h2
+{
+    margin-left:7%;
+    font-size:3rem;
+    color:white;
+    transform: translate(6%,-420%);
+
+}
+.h3
+{
+    font-size:4rem;
+    color:white;
+    transform: translate(10%,-160%);
+}
+.h4
+{
+    margin-left:7%;
+    font-size:3rem;
+    color:white;
+    transform: translate(6%,-420%);
+}
+.h5
+{
+    font-size:4rem;
+    color:white;
+    transform: translate(10%,-160%);
+}
+.h6
+{
+    margin-left:7%;
+    font-size:3rem;
+    color:white;
+    transform: translate(6%,-420%);
+}
+.container
+    {
+        display:block;
+        position: absolute;
+        left:45%;
+        top: 40%;
+       
+    }
+
+   .cube
+    {
+        display:inline-block;
+        background:yellow;
+        width: 14vh;
+        height: 25vh;
+        position: relative;
+        margin:auto;
+    }
+    .cube2
+    {
+        display:inline-block;
+        background:#cd7f32;
+        width: 14vh;
+        height: 12vh;
+        position: relative;
+        left:15.8%;
+        top:13vh;
+    }
+    .cube3
+    {
+        display:inline-block;
+        background:#C0C0C0;
+        width: 14vh;
+        height: 18vh;
+        position: relative;
+        left:-14vh;
+        top:7vh;
+    }
+
+   .cube::before
+    {
+        content: '';
+        display: inline-block;
+        background: rgb(200, 200, 104);
+        width: 13.5vh;
+        height:1.5vh;
+        -webkit-transform: perspective(100px) rotateX(20deg);
+        position: absolute;
+        top: -1.3rem;
+        left: 0.2rem;
+    }
+    .cube2::before
+    {
+        content: '';
+        display: inline-block;
+        background: #855321;
+        width: 13.5vh;
+        height:1.5vh;
+        -webkit-transform: perspective(100px) rotateX(20deg);
+        position: absolute;
+        top: -1.3rem;
+        left: 0.2rem;
+    }
+    .cube3::before
+    {
+        content: '';
+        display: inline-block;
+        background: #8f8a8a;
+        width: 13.5vh;
+        height:1.5vh;
+        -webkit-transform: perspective(100px) rotateX(20deg);
+        position: absolute;
+        top: -1.3rem;
+        left: 0.2rem;
+    }
+.heading
+{
+    border-radius: 15%;
+    background-color: white;
+    color:black;
+
+}
+@media screen and (max-width:600px)
+{
+    .container
+    {
+        transform:scale(0.5);
+    }
+    
+}

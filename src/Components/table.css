@@ -1,0 +1,40 @@
+th,td{
+
+    font-size:3rem;
+    color:black;
+}
+.container
+{
+    margin-top:15%;
+}
+td{
+    height: 60px;
+}
+.name
+{
+    width: 494.4px;
+    height:89.6px;
+    font-size: 2rem;
+    margin:1%;
+}
+.score
+{
+    width: 233.53px;
+    height:89.6px;
+    font-size: 2rem;
+    margin:auto;
+}
+.tf
+{
+    width:85px;
+    height:65px;
+    margin-left:5%;
+    margin-right:5%;
+}
+.button
+{
+    height:65px;
+    width:120px;
+    margin:1%;
+    font-size: 2rem;
+}
