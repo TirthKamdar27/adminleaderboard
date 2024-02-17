@@ -1,41 +1,87 @@
 import React from 'react';
 import './public.css';
-
+import img1 from '../Assets/img1.jpg';
 export default function Public(){
-    return(
+   return(
         <>
-        
-        <div className="first">
-            <p className="text">ASTRO TRIVIA</p>
+        <div className="body"> 
+        <h1 className="protest-riot-regular">ASTRO TRIVIA</h1>
+        <div className="card1">
+            <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 1</h2>
+            <h2>Points</h2>
         </div>
-        <div className="container">
-            <div className="cube">
-            <h1 className='h1'>Team Name</h1>
-            <h2 className="h2">"Score"</h2>
-                <p className="p">1</p>
-            </div>
+        <div className="card2">
+            <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 2</h2>
+            <h2>Points</h2>
         </div>
-        <div className="container">
-            <div className="cube3">
-            <h1 className='h5'>Team Name</h1>
-            <h2 className="h6">"Score"</h2>
-                <p className="p2">2</p>
-            </div>
+        <div className="card3">
+            <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 3</h2>
+            <h2>Points</h2>
         </div>
-        <div className="container">
-            <div className="cube2">
-            <h1 className='h3'>Team Name</h1>
-            <h2 className="h4">"Score"</h2>
-                <p className="p1">3</p>
-            </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 4</h2>
+            <h2>Points</h2>
         </div>
-        
-
-        
-        
-        
-        
-        
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 5</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 6</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 7</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 8</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 9</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 10</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 11</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 12</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 13</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 14</h2>
+            <h2>Points</h2>
+        </div>
+        <div className="card">
+        <img className="img1" src={img1} width={225} height={200}></img>
+            <h2>Team 15</h2>
+            <h2>Points</h2>
+        </div>
+        </div>
         </>
         )
 }
